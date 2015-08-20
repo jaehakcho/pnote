@@ -1,4 +1,4 @@
-Mvc::Application.routes.draw do
+Testapp::Application.routes.draw do
   get 'home/hello' => 'home#hello'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -8,7 +8,6 @@ Mvc::Application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-  ...
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
